@@ -1,31 +1,24 @@
-body {
+#title, #subtitle {
+    text-align: center;
+}
+
+#squares {
+    border-radius: 5px;
+    background-color: chartreuse;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 32px;
+}
+
+.button {
+    text-align: center;
+}
+
+#grid {
     display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #eeeeee;
+    margin: auto;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 400px;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 500px;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.board {
-    width: 500px;
-    height: 500px;
-    display: grid;
-    border: .5rem solid black;
 }
